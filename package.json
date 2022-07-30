@@ -26,9 +26,11 @@
   "babel": {
     "presets": [
       "@babel/react",
-      "@babel/env"
+      "@babel/env",
+      "@babel/preset-react"
     ],
     "plugins": [
+      "@babel/plugin-syntax-jsx",
       "@babel/proposal-class-properties",
       "@babel/plugin-transform-runtime"
     ]
