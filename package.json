@@ -23,18 +23,6 @@
     "react-hot-toast": "^2.3.0",
     "react-scripts": "^3.4.1"
   },
-  "babel": {
-    "presets": [
-      "@babel/react",
-      "@babel/env",
-      "@babel/preset-react"
-    ],
-    "plugins": [
-      "@babel/plugin-syntax-jsx",
-      "@babel/proposal-class-properties",
-      "@babel/plugin-transform-runtime"
-    ]
-  },
   "files": [
     "dist"
   ]
